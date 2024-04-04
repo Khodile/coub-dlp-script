@@ -1,11 +1,11 @@
 # coub-dlp-script
-Script for downloading and looping video developed for coub.com.
+Bash script for downloading and looping video developed for coub.com.
 
 ## How it works
 First of all script trying to download video- and audio- files separately from all urls in batch-file. Then it loops files to obtain video- and audio- files longer than specified as minimum. Thus will be selected such a duration so that the audio is played an integer number of times.
 
 ## Installation (Linux)
-You must have installed ffmpeg, ffprobe and yt-dlp.
+You must have installed ffmpeg, ffprobe and [yt-dlp](https://github.com/yt-dlp/yt-dlp).
 
 1. Clone repository
 
@@ -33,5 +33,5 @@ You must have installed ffmpeg, ffprobe and yt-dlp.
 | YT_DLP_BATCH_FILE        | String | Path to the batch-file for yt-dlp call. Batch-file is a file containing URLs to download ("-" for stdin), one URL per line. Lines starting with "#", ";" or "]" are considered as comments and ignored |
 | LOGS_DIRECTORY           | String | Path to the directory where script will create log files |
 | YT_DLP_TARGET_DIRECTORY  | String | Path to the directory where files will be saved by yt-dlp |
-| YT_DLP_OUTPUT_TEMPLATE   | String | Yt-dlp [output template](https://github.com/yt-dlp/yt-dlp#output-template) (relative path in YT_DLP_TARGET_DIRECTORY).  |
+| YT_DLP_OUTPUT_TEMPLATE   | String | Yt-dlp [output template](https://github.com/yt-dlp/yt-dlp#output-template) (path relative to YT_DLP_TARGET_DIRECTORY).  |
 | FINAL_TARGET_DIRECTORY   | String | Path to the directory where resulting video files will be saved |
