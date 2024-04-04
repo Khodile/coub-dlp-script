@@ -1,0 +1,6 @@
+# User specific config files
+yt-dlp/*
+
+# Result of script processing
+coubs/*
+logs/*
