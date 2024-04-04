@@ -3,13 +3,13 @@
 MINIMAL_DURATION_SECONDS=45
 FREE_SPACE_RESERVE_KiB=1024
 
-YT_DLP_ARCHIVE_FILE='/home/Khodile/Storage/Youtube-dl/.downloaded_coubs'
-YT_DLP_BATCH_FILE='/home/Khodile/Storage/Youtube-dl/.coubs_to_download'
-LOGS_DIRECTORY='/home/Khodile/Storage/Youtube-dl/Logs/'
+YT_DLP_ARCHIVE_FILE='./yt-dlp/downloaded.txt'
+YT_DLP_BATCH_FILE='./yt-dlp/batch-file.txt'
+LOGS_DIRECTORY='./logs/'
 
-YT_DLP_TARGET_DIRECTORY='/home/Khodile/Storage/Youtube-dl/Downloaded/New/Coubs/'
+YT_DLP_TARGET_DIRECTORY='./coubs/temp/'
 YT_DLP_OUTPUT_TEMPLATE='%(title)s by <%(uploader)s> [%(id)s].%(ext)s'
-FINAL_TARGET_DIRECTORY='/Storage/Vault/Видео/Новое/Coub/'
+FINAL_TARGET_DIRECTORY='./coubs/final/'
 
 
 TIMESTAMP="$(date +'%Y-%m-%d_%H:%M:%S')"
