@@ -13,14 +13,16 @@ You must have installed ffmpeg, ffprobe and [yt-dlp](https://github.com/yt-dlp/y
 
 2. Configure the script
    * Create configuration file ~/.config/coub-dlp and write parameters one by line (Example: MINIMAL_DURATION_SECONDS=45)
+   
    OR
+   
    * Configuration file with default values will be created at first start (with all default folders and files)
 
-3. Create batch-file and archive-file in choosen destinations
+4. Create batch-file and archive-file in choosen destinations
 
-4. Copy urls to the batch-file
+5. Copy urls to the batch-file
 
-5. Add execute permission
+6. Add execute permission
 
 ```chmod +x coub-dlp.sh```
 
