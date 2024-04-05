@@ -45,9 +45,9 @@ You must have installed ffmpeg, ffprobe and [yt-dlp](https://github.com/yt-dlp/y
 |-----------|-------|
 | MINIMAL_DURATION_SECONDS | 45 |
 | FREE_SPACE_RESERVE_KiB   | 102400 |
-| YT_DLP_ARCHIVE_FILE      | '~/.coub-dlp/yt-dlp/downloaded.txt' |
-| YT_DLP_BATCH_FILE        | '~/.coub-dlp/yt-dlp/batch-file.txt' |
-| LOGS_DIRECTORY           | '~/.coub-dlp/logs/' |
-| YT_DLP_TARGET_DIRECTORY  | '~/.coub-dlp/coubs/temp/' |
+| YT_DLP_ARCHIVE_FILE      | "$HOME/.coub-dlp/yt-dlp/downloaded.txt" |
+| YT_DLP_BATCH_FILE        | "$HOME/.coub-dlp/yt-dlp/batch-file.txt" |
+| LOGS_DIRECTORY           | "$HOME/.coub-dlp/logs/" |
+| YT_DLP_TARGET_DIRECTORY  | "$HOME/.coub-dlp/coubs/temp/" |
 | YT_DLP_OUTPUT_TEMPLATE   | '%(title)s by <%(uploader)s> [%(id)s].%(ext)s' |
-| FINAL_TARGET_DIRECTORY   | '~/.coub-dlp/coubs/final/' |
+| FINAL_TARGET_DIRECTORY   | "$HOME/.coub-dlp/coubs/final/" |
